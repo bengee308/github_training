@@ -1,5 +1,6 @@
 def add(a, b):
     return a + b
+<<<<<<< HEAD
 
 def div(a,b):
     try:
@@ -16,3 +17,12 @@ def subtract(a, b):
     -1
     """
     return a - b
+def exp(a,b):
+    """
+    returns x^y
+    >>>exp(5,2)
+    25
+    >>>exp(10,2)
+    100
+    """
+    return a**b
